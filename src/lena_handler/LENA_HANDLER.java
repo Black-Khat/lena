@@ -33,7 +33,7 @@ public class LENA_HANDLER {
             reader = new BufferedReader(new InputStreamReader(new FileInputStream("lena.ppm"), "Cp1252"));
             System.out.println("READEr + " + reader.readLine());
             
-            
+            //
             
             InputStream in = new FileInputStream(new File("lena.ppm"));
             // Read the header
